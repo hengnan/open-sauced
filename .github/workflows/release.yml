@@ -68,6 +68,9 @@ jobs:
         with:
           node-version: '20.x'
 
+      - name: "🛠 verify node version"
+        run: node -v
+
       - name: "🔧 install npm@latest"
         run: npm i -g npm@latest
 
